@@ -1,0 +1,11 @@
+for ptr = 1:835
+   if ended_task_info(ptr,4) == 0 
+      plot(ended_task_info(ptr,2),ended_task_info(ptr,1),'MarkerEdgeColor','r','MarkerFaceColor','r','MarkerSize',ended_task_info(ptr,3))
+   else
+       plot(ended_task_info(ptr,2),ended_task_info(ptr,1),'MarkerEdgeColor','g','MarkerFaceColor','g','MarkerSize',ended_task_info(ptr,3))
+
+   end
+end
+
+for ptr = 1:1877
+   

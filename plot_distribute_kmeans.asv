@@ -1,0 +1,12 @@
+hold on
+
+number_of_samples = 835
+
+color = '  '
+
+for ptr = 1:number_of_samples
+    
+    plot(ended_task_info(ptr,2),ended_task_info(ptr,1),'.r')
+   end
+end
+
